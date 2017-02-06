@@ -10,7 +10,7 @@
     }],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "credits": "Chris Swan"
     },
     "finish": {
       "text": "finish.md"
@@ -18,7 +18,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    "uimessage1": "Your Interactive Bash Terminal."
   },
   "backend": {
     "imageid": "bash"
