@@ -6,12 +6,9 @@ Browse to https://github.csc.com/__your__short__name__/Shortnames replacing `__y
 
 Put shortname into a shell variable to save some typing/mistakes:
 
-```
-echo 'Enter shortname:'
-read SHORTNAME
-```{{execute}}
+`echo 'Enter shortname:' && read SHORTNAME`{{execute}}
 
-`git clone git@github.csc.com:"$SHORTNAME"/Shortnames.git`
+`git clone git@github.csc.com:"$SHORTNAME"/Shortnames.git`{{execute}}
 
 Change directory into the cloned repo:
 
