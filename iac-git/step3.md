@@ -8,6 +8,8 @@ Get the SSH clone URL by clicking on the `Copy to clipboard` button then:
 
 `git clone ` and paste in the URL and press Enter
 
+The URL will be something like git@github.csc.com:jdoe1/Shortnames.git
+
 Change directory into the cloned repo:
 
 `cd Shortnames`{{execute}}
