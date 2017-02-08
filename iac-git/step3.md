@@ -8,8 +8,8 @@ Get the SSH clone URL by clicking on the `Copy to clipboard` button
 
 Back to the SSH session on your AWS instance:
 
-    git clone git@github.csc.com:__your__short__name__/Shortnames.git
+`git clone git@github.csc.com:__your__short__name__/Shortnames.git`
 
 Change directory into the cloned repo
 
-    cd Shortnames
+`cd Shortnames`{{execute}}
