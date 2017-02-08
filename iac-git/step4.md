@@ -8,4 +8,4 @@ Create a file named shortname
 
 Add the file to git
 
-`git add "$SHORTNAME"`
+`git add "$SHORTNAME"`{{execute}}
