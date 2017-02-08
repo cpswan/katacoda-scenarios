@@ -4,10 +4,16 @@
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Create SSH key",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "1 - Fork a repo",
+        "text": "step1.md"
+      },
+      {
+        "title": "2 - Create SSH key",
+        "text": "step2.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
