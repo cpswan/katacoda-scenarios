@@ -10,6 +10,8 @@ Put shortname into a shell variable to save some typing/mistakes:
 
 `git clone git@github.csc.com:"$SHORTNAME"/Shortnames.git`{{execute}}
 
-Change directory into the cloned repo:
+Answer `yes` when presented with ECSDA key fingerprint and asked if you want to continue connecting.
+
+Once the repo has been cloned change directory into the cloned repo:
 
 `cd Shortnames`{{execute}}
