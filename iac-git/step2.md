@@ -2,9 +2,9 @@ An SSH key is needed to establish trust between the terminal you're working on, 
 
 ## Task
 
-Run `ssh-keygen` and accept all of the defaults to create an SSH key pair (public and private keys.
+Run `ssh-keygen` with forced defaults to create an SSH key pair (public and private keys).
 
-`ssh-keygen`{{execute}}
+`ssh-keygen -t rsa -f ~/.ssh/id_rsa -N ''`{{execute}}
 
 Show the contents of the public key so that it can be copied to the clipboard:
 
