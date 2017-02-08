@@ -28,8 +28,11 @@
       {
         "title": "6 - Push",
         "text": "step6.md"
+      },
+      {
+        "title": "7 - Pull request",
+        "text": "step7.md"
       }
-
     ],
     "intro": {
       "text": "intro.md",
