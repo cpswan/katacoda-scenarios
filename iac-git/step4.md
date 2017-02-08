@@ -4,8 +4,8 @@ With a local copy of the Shortnames repo to work with it's now time to add a fil
 
 Create a file named shortname
 
-`echo '__your__short__name__' > __your__short__name__`
+`echo "$SHORTNAME" > "$SHORTNAME"`{{execute}}
 
 Add the file to git
 
-`git add __your__short__name__`
+`git add "$SHORTNAME"`

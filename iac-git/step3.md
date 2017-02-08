@@ -4,11 +4,14 @@ Forking the shortnames repo created a copy in GitHub. Cloning will make a local 
 
 Browse to https://github.csc.com/__your__short__name__/Shortnames replacing `__your__short__name__`
 
-Get the SSH clone URL by clicking on the `Copy to clipboard` button then:
+Put shortname into a shell variable to save some typing/mistakes:
 
-`git clone ` and paste in the URL and press Enter
+```
+echo 'Enter shortname:'
+read SHORTNAME
+```{{execute}}
 
-The URL will be something like `git@github.csc.com:jdoe1/Shortnames.git`
+`git clone git@github.csc.com:"$SHORTNAME"/Shortnames.git`
 
 Change directory into the cloned repo:
 
