@@ -16,7 +16,12 @@
       {
         "title": "3 - Clone your fork",
         "text": "step3.md"
+      },
+      {
+        "title": "4 - Add a file",
+        "text": "step4.md"
       }
+
     ],
     "intro": {
       "text": "intro.md",
