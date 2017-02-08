@@ -1,4 +1,4 @@
-Create an SSH key.
+An SSH key is needed to establish trust between the terminal you're working on, and the CSC Enterprise GitHub. This step will cover creation of a key pair, then copying the public key into GitHub to establish the trust.
 
 ## Task
 
