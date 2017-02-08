@@ -12,6 +12,10 @@
       {
         "title": "2 - Create SSH key",
         "text": "step2.md"
+      },
+      {
+        "title": "3 - Clone your fork",
+        "text": "step3.md"
       }
     ],
     "intro": {
