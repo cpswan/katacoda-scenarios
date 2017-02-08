@@ -8,6 +8,8 @@ Put shortname into a shell variable to save some typing/mistakes:
 
 `echo 'Enter shortname:' && read SHORTNAME`{{execute}}
 
+Clone the repo:
+
 `git clone git@github.csc.com:"$SHORTNAME"/Shortnames.git`{{execute}}
 
 Answer `yes` when presented with ECSDA key fingerprint and asked if you want to continue connecting.
