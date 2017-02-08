@@ -24,7 +24,12 @@
       {
         "title": "5 - Commit",
         "text": "step5.md"
+      },
+      {
+        "title": "6 - Push",
+        "text": "step6.md"
       }
+
     ],
     "intro": {
       "text": "intro.md",
