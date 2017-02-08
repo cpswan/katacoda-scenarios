@@ -20,8 +20,11 @@
       {
         "title": "4 - Add a file",
         "text": "step4.md"
+      },
+      {
+        "title": "5 - Commit",
+        "text": "step5.md"
       }
-
     ],
     "intro": {
       "text": "intro.md",
