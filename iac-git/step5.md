@@ -7,7 +7,7 @@ First configure git with email and user name:
 
     git config --global user.email "$SHORTNAME"'@csc.com'
     git config --global user.name "$SHORTNAME"
-    {{execute}}
+{{execute}}
 
 The commit can then be signed (s flag) with an appropriate message (m flag):
 
