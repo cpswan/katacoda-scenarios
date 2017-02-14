@@ -25,3 +25,7 @@ used again here to save typing and errors.
 
 Most well run open source projects insist on signed commits (with a real email
 address) for contributions to projects.
+
+Another way to add the `Signed-off-by: username <email>` message is to use
+`git config --global commit.template` and add the signed-off-by message into
+the template.
