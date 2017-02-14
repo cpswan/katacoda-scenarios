@@ -27,5 +27,10 @@ Most well run open source projects insist on signed commits (with a real email
 address) for contributions to projects.
 
 Another way to add the `Signed-off-by: username <email>` message is to use
-`git config --global commit.template` and add the signed-off-by message into
-the template.
+`git config --global commit.template ~/.git.template` and add the signed-off-by
+message into the template file `~/.git.template` e.g.:
+
+```
+
+Signed-off-by: Jane Dough <jdough1@csc.com>
+```
