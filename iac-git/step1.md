@@ -4,7 +4,7 @@ contains the shortnames of people who've already done this workshop.
 
 ## Task
 
-Browse to https://github.csc.com/GIS-CTO/Shortnames (Ctrl-click on the link to
-open it in a new tab)
+Browse to https://github.csc.com/GIS-CTO/Shortnames _(Ctrl-click on the link to
+open it in a new tab)_
 
 Hit the `Fork` button at the top right of the screen

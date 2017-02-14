@@ -9,8 +9,8 @@ private keys).
 
 `ssh-keygen -t rsa -f ~/.ssh/id_rsa -N ''`{{execute}}
 
-(Any lines in this pane ending in ↵ can be clicked on to run in the shell pane,
-so there's no need to copy and paste or type in by hand.)
+_(Any lines in this pane ending in ↵ can be clicked on to run in the shell pane,
+so there's no need to copy and paste or type in by hand.)_
 
 Show the contents of the public key so that it can be copied to the clipboard:
 
