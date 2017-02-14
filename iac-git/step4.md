@@ -1,4 +1,5 @@
-With a local copy of the Shortnames repo to work with it's now time to add a file to the repo and get git to track the new file.
+With a local copy of the Shortnames repo to work with it's now time to add a
+file to the repo and get git to track the new file.
 
 ## Task
 
