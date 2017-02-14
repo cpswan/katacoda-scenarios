@@ -5,9 +5,10 @@ needed to solidify the change.
 
 First configure git with email and user name:
 
+```
     git config --global user.email "$SHORTNAME"'@csc.com'
     git config --global user.name "$SHORTNAME"
-{{execute}}
+```{{execute}}
 
 The commit can then be signed (s flag) with an appropriate message (m flag):
 
@@ -29,5 +30,8 @@ Another way to add the `Signed-off-by: username <email>` message is to use
 `git config --global commit.template ~/.git.template` and add the signed-off-by
 message into the template file `~/.git.template` e.g.:
 
+    Subject line
+
+    What happened
 
     Signed-off-by: Jane Dough <jdough1@csc.com>
