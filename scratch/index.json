@@ -31,6 +31,12 @@
         "file": "hosts",
         "target": "~/"
       }
+    ],
+    "host01": [
+      {
+        "file": "helloworld",
+        "target": "~/"
+      }
     ]
   }
 }
