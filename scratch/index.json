@@ -15,6 +15,20 @@
       "courseData": "env-init.sh",
       "credits": ""
     },
+    "assets": {
+      "client": [
+        {
+          "file": "hosts",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "helloworld",
+          "target": "~/"
+        }
+      ]
+    },
     "finish": {
       "text": "finish.md"
     }
@@ -25,19 +39,5 @@
   },
   "backend": {
     "imageid": "ansible"
-  },
-  "assets": {
-    "client": [
-      {
-        "file": "hosts",
-        "target": "~/"
-      }
-    ],
-    "host01": [
-      {
-        "file": "helloworld",
-        "target": "~/"
-      }
-    ]
   }
 }
