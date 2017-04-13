@@ -24,5 +24,13 @@
   },
   "backend": {
     "imageid": "ansible"
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "hosts",
+        "target": "~/"
+      }
+    ]
   }
 }
