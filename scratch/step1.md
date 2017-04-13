@@ -1,11 +1,9 @@
-Forking is the process of making a copy of a repo into another account so that
-it can be changed. Here we're going to make a fork of the Shortnames repo, which
-contains the shortnames of people who've already done this workshop.
+## Run some simple Ansible commands
 
-## Task
+`ansible all -i hosts -u ubuntu -b -a "echo 'Hello World'"`{{execute}}
 
-Browse to https://github.csc.com/GIS-CTO/Shortnames _(Ctrl-click on the link to
-open it in a new tab)_
+`ansible all -i hosts -u ubuntu -b -a "docker ps"`{{execute}}
 
-Hit the `Fork` button at the top right of the screen then return to this tab to
-continue.
+`ansible all -i hosts -u ubuntu -b -a "df -h"`{{execute}}
+
+`ansible all -i hosts -u ubuntu -b -m setup`{{execute}}
