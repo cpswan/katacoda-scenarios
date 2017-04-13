@@ -1,20 +1,11 @@
 mkdir tasks
-cat <<EOF > tasks/install_nginx.yml
-# ./ansible-nginx/tasks/install_nginx.yml
-
-#- name: NGINX | Installing NGINX repo rpm
-#  yum:
-#    name: http://nginx.org/packages/rhel/7/noarch/RPMS/nginx-release-rhel-7-0.el7.ngx.noarch.rpm
-
-- name: NGINX | Installing NGINX
-  apt:
-    name: nginx
-    state: latest
-
-- name: NGINX | Starting NGINX
-  service:
-    name: nginx
-    state: started
-
-# Playbook ends here
-EOF
+echo '# ./ansible-nginx/tasks/install_nginx.yml' > tasks/install_nginx.yml
+echo '- name: NGINX | Installing NGINX' >> tasks/install_nginx.yml
+echo '  apt:' >> tasks/install_nginx.yml
+echo '    name: nginx' >> tasks/install_nginx.yml
+echo '    state: latest' >> tasks/install_nginx.yml
+echo '' >> tasks/install_nginx.yml
+echo '- name: NGINX | Starting NGINX' >> tasks/install_nginx.yml
+echo '  service:' >> tasks/install_nginx.yml
+echo '    name: nginx' >> tasks/install_nginx.yml
+echo '    state: started' >> tasks/install_nginx.yml
