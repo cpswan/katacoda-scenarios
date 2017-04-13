@@ -1,5 +1,5 @@
 mkdir tasks
-cat << EOF > tasks/install_nginx.yml
+cat <<EOF > tasks/install_nginx.yml
 # ./ansible-nginx/tasks/install_nginx.yml
 
 #- name: NGINX | Installing NGINX repo rpm
