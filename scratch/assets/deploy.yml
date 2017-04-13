@@ -1,7 +1,7 @@
 # ./ansible-nginx/deploy.yml
 
 - hosts: nginx
-  user: ec2-user
+  user: ubuntu
   become: yes
 
   tasks:

@@ -18,9 +18,21 @@
     "assets": {
       "client": [
         {
-          "file": "*",
+          "file": "hosts",
           "target": "~/"
-        }
+        },
+        {
+          "file": "run.sh",
+          "target": "~/"
+        },
+        {
+          "file": "deploy.yml",
+          "target": "~/"
+        },
+        {
+          "file": "tasks/install_nginx.yml",
+          "target": "~/tasks/"
+        },
       ]
     },
     "finish": {
