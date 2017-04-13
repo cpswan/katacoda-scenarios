@@ -32,7 +32,7 @@
         {
           "file": "tasks/install_nginx.yml",
           "target": "~/tasks/"
-        },
+        }
       ]
     },
     "finish": {
