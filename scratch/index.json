@@ -1,0 +1,28 @@
+{
+  "title": "Scratch",
+  "description": "Try out stuff",
+  "difficulty": "beginner",
+  "time": "who knows?",
+  "details": {
+    "steps": [
+      {
+        "title": "The one and only step",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nYou can type in and run shell commands here.\r\n\u001b[m"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
