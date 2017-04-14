@@ -16,4 +16,4 @@ We've used 5 of [6 essential git commands](https://twitter.com/ThePracticalDev/s
 
 The 6th essential git command is:
 
-`git pull` to get any changes made on GitHub back to the local copy (without having to start from scratch with a new clone
+`git pull` to get any changes made on GitHub back to the local copy (without having to start from scratch with a new clone)
