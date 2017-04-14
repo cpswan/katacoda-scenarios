@@ -20,3 +20,11 @@ Note the change in tracked files now:
 Also note that the most recent commit is appended to the log:
 
 `git log`{{execute}}
+
+The default log view isn't very helpful, as it shows every commit. Get just the most recent commit with the `-1` flag:
+
+`git log -1`{{execute}}
+
+The `-p` flag can also be used to show more detail:
+
+`git log -1 -p`{{execute}}
