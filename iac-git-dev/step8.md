@@ -1,6 +1,8 @@
 ## Review
 
-We've used 5 of 6 essential git commands:
+We've used 5 of [6 essential git commands](https://twitter.com/ThePracticalDev/status/762709515133485056/photo/1):
+
+![Memorizing Six Git Commands](https://pbs.twimg.com/media/CpWvVOoW8AAjYmB.jpg:thumb)
 
 `git clone` to make a local copy from GitHub
 
