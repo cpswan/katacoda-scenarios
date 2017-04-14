@@ -21,3 +21,10 @@ The `git status` will now show that git is tracking the file:
 `git status`{{execute}}
 
 The green text in the status means that the file is being tracked by git.
+
+### Notes
+
+`>>` is used to append shortname to a file called shortname. If `>` had been
+used to write then the effect would be the same first time around, but any
+repeat visit would fail at the `git add` stage because no change would be
+made to the shortname file.
