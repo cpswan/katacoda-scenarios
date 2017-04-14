@@ -6,6 +6,14 @@ Create a file named shortname
 
 `echo "$SHORTNAME" >> "$SHORTNAME"`{{execute}}
 
-Add the file to git
+Git keeps track of changes to the local file system, so `git status` will show that there's a new untracked file
+
+`git status`{{execute}}
+
+Add the file to git:
 
 `git add "$SHORTNAME"`{{execute}}
+
+The `git status` will now show that git is tracking the file
+
+`git status`{{execute}}

@@ -15,9 +15,3 @@ We've used 5 of 6 essential git commands:
 The 6th essential git command is:
 
 `git pull` to get any changes made on GitHub back to the local copy (without having to start from scratch with a new clone
-
-## Also Try
-
-`git log` to show a summary of commit messages
-
-`git status` to see whether there are changes yet to be committed, pushed or pulled
