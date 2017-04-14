@@ -1,1 +1,1 @@
-You've completed your first Katacoda scenario!
+You've completed the first part of the Infrastructure as Code Boot Camp.
