@@ -15,22 +15,6 @@
       "courseData": "env-init.sh",
       "credits": ""
     },
-    "assets": {
-      "client": [
-        {
-          "file": "hosts",
-          "target": "~/"
-        },
-        {
-          "file": "run.sh",
-          "target": "~/"
-        },
-        {
-          "file": "deploy.yml",
-          "target": "~/"
-        }
-      ]
-    },
     "finish": {
       "text": "finish.md"
     }
@@ -40,6 +24,7 @@
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nYou can type in and run shell commands here.\r\n\u001b[m"
   },
   "backend": {
-    "imageid": "ansible"
+    "imageid": "docker",
+    "port": 8080
   }
 }
