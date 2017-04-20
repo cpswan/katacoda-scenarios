@@ -15,3 +15,9 @@ Highlight the SSH key starting `ssh-rsa` through to `scrapbook@uid` where uid wi
 Back to GitHub - click down arrow by user profile pic (top right) and choose `Settings`
 
 Select `SSH Keys` then `Add SSH key`. Use a Title such as `Workshop`, paste the key into the `Key` box, then save it by pressing `Add key`
+
+### Notes
+
+If you run `ssh-keygen` without any parameters then it asks a series of
+questions about where to save the key and what the key passphrase will be.
+The `-f` flag avoids the first question, and `-N ''` the second.
