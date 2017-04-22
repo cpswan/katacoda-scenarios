@@ -1,1 +1,3 @@
-DXC Infrastructure as Code scenarios are now at [is.gd/DXCIAC](https://is.gd/DXCIAC)
+Early versions of the DXC Infrastructure as Code workshop were prototyped here. They've now moved to:
+
+[is.gd/DXCIAC](https://is.gd/DXCIAC)
