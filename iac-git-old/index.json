@@ -1,7 +1,7 @@
 {
-  "title": "Infrastructure as Code Part 1 - dev",
-  "description": "Git/GitHub",
+  "title": "Infrastructure as Code Part 1",
   "private": "true",
+  "description": "Git/GitHub",
   "difficulty": "beginner",
   "time": "20-30 minutes",
   "details": {
@@ -49,7 +49,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n\u001b[m"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nYou can type in and run shell commands here.\r\n\u001b[m"
   },
   "backend": {
     "imageid": "git"

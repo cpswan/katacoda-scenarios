@@ -6,45 +6,10 @@
   "details": {
     "steps": [
       {
-        "title": "1 - Fork a repo",
+        "title": "1 - Nothing to see here",
         "text": "step1.md"
-      },
-      {
-        "title": "2 - Create SSH key",
-        "text": "step2.md"
-      },
-      {
-        "title": "3 - Clone your fork",
-        "text": "step3.md"
-      },
-      {
-        "title": "4 - Add a file",
-        "text": "step4.md"
-      },
-      {
-        "title": "5 - Commit",
-        "text": "step5.md"
-      },
-      {
-        "title": "6 - Push",
-        "text": "step6.md"
-      },
-      {
-        "title": "7 - Pull request",
-        "text": "step7.md"
-      },
-      {
-        "title": "8 - Review",
-        "text": "step8.md"
       }
-    ],
-    "intro": {
-      "text": "intro.md",
-      "credits": ""
-    },
-    "finish": {
-      "text": "finish.md"
-    }
+    ]
   },
   "environment": {
     "uilayout": "terminal",
